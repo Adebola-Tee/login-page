@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width:100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(Thunder.jpg);
+    height:109vh;
+}
+.navbar{
+   width:1200px;
+   height:75px;
+   margin:auto; 
+}
+.icon{
+    width:200px;
+    height:70px;
+    float:left;
+}
+.logo{
+    font-family: Arial;
+    color:red;
+    padding-left:50px;
+    padding-top:50px;
+    font-size:35px;
+    float:left;
+}
+ul{
+    float:left;
+    justify-content: center;
+    align-items:center;
+    display:flex;   
+}
+ul li{
+    list-style: none;
+    margin-left:62px;
+    margin-top:30px;
+    font-size:12px;
+}
+ul li a{
+    color:white;
+    font-weight: bold;
+    font-family: Arial;
+    text-decoration:none;
+    transition: 0.4s;
+}
+ul li a:hover{
+    color:red;
+}
+.search{
+    float:right;
+    margin-top:30px;
+    width:330px;
+}
+.srch{
+   font-family:'Times New Roman';
+   width:200px;
+   height:40px;
+   background:transparent;
+   border:1px solid red;
+   margin-top:13px;
+   border-right: none;
+   padding-left: 8%;
+   font-size: 16px;
+   border-bottom-left-radius: 5px;
+   border-top-left-radius: 5px;
+}
+.btn{
+    background-color:red;
+    width:100px;
+    height:40px; 
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size:15px;
+    margin-top:13px;
+    border:1px solid red;
+}
+btn:focus{
+    outline:none;
+}
+srch:focus{
+    outline:none; 
+}
+.content{
+    margin-top: 150px;
+    margin-left: 30px;
+    position:relative;
+}
+.Headstart{
+    color:white;
+    font-family:'Times New Roman';
+    letter-spacing:2px;
+}
+#design{
+    color:red;
+    font-family:'Times New Roman';
+    letter-spacing:2px;
+}
+
+.par{
+    color:white;
+    font-family:Arial;
+    letter-spacing:1.2px;
+    line-height:30px;
+}
+.click{
+    border: 40%;
+    width:160px;
+    height:40px;
+    background-color:red;
+    margin-top:20px;
+    font-size:16px;
+    padding:center;
+    cursor:pointer;
+    transition:0.5s ease;
+    
+}
+.click a{
+    text-decoration:none;
+    color: black;
+    transition:.3s ease;
+}
+.click:hover{
+    background-color:white;
+}
+.form{
+    width: 250px;
+    height: 360px;
+    position:absolute;
+    top:-20px;
+    left:870px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.2)50%, rgba(0, 0, 0, 0.2)50%);
+    border-radius: 10px;
+    padding:25px;
+    margin-top: 220px;
+}
+.login{
+    text-align: center;
+    font-family: sans-serif;
+    color:red;
+    font-size: 20px;
+    width:220px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+}
+.form input{
+    width:240px;
+    height:35px;
+    background:transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid red;
+    margin-top: 15px;
+}
+
+.form input:focus{
+    outline: none;
+}
+    #logbtn{
+        background-color: red;
+        width: 220px;
+        text-align: center;
+    font-family: sans-serif;
+    color:black;
+    font-size: 15px;
+    border-radius: 10px;
+    height: 35px;
+    font-weight:bold;
+    transition: 0.4s ease;
+    margin-top: 15px;
+    }
+    #logbtn a{
+        text-decoration: none;
+        background-color: none;
+        color:black;
+    }
+    #logbtn:hover{
+        background-color: white;
+    }
+::placeholder{
+color: white;
+}
+.sp{
+    color:white;
+    height:50px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.link{
+    text-decoration: none;
+    color:red;
+}
+.tp{
+    margin-top: 5px;
+    color:white;
+    margin-left: 50px;
+}
+.icon{
+    margin-top:40px;
+    font-size:30px;
+ 
+}
+.ii{
+    color:white;
+    padding-left: 2px;
+    transition: 0.3s ease;
+}
+.icon a{
+    text-decoration:none;
+}
+.icon ion-icon:hover{
+color:red;
+}
